@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width:100%;
+    height: 50px;
+    background-color: rgb(207, 225, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration-line: none;
+    color: rgb(189, 72, 72);
+    font-weight: 500;
+
+}
+.navCategory {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.navInfo{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    text-shadow: 0.5px 0.5px 5px pink;
+}
+.navInfo button{
+    height: 50%;
+    background-color: rgb(162, 162, 255);
+    border: 3px;
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.signupBody{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.signupBox{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(199, 229, 255);
+    color: rgb(3, 99, 123);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius:10px ;
+    box-shadow: 1px 1px 5px skyblue, -1px -1px 5px skyblue;
+}
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.signupForm input{
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+}
+.signupForm button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(3, 99, 123, 0.562);
+    color: white;
+}
+.newcategoryBox{
+    height: 90vh;
+    width: 80%;
+    background-color: rgb(199, 229, 255);
+    color: rgb(3, 99, 123);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius:10px ;
+    box-shadow: 1px 1px 5px skyblue, -1px -1px 5px skyblue;
+}
+.newcategoryBox h1{
+    padding-top: 50px;
+}
+.newcategoryForm{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+.newcategoryForm img{
+    width:200px;
+    
+}
+.newcategoryForm input{
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+}
+.newcategoryForm button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(3, 99, 123, 0.562);
+    color: white;
+}
+.newcategoryForm input::file-selector-button{
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgba(3, 99, 123, 0.562);
+    color: white;
+}
+.signupBox img{
+    width:240px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px skyblue, -1px -1px 5px skyblue;
+}
+.categoryBody{
+    height: 100%;
+    width: 100vw;
+    background-color: rgba(162, 162, 255, 0.397);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    border-radius:10px ;
+    box-shadow: 1px 1px 5px skyblue, -1px -1px 5px skyblue;
+}
+.categoryBox{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+.categoryBox h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(49, 126, 159);
+    background-color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(11, 17, 20), -1px -1px 5px skyblue;
+}
+.categoryBox th{
+   font-size: large; 
+   color: rgb(189, 72, 72);
+}
+
+.rowName{
+    font-size: 30px;
+    font-weight: 600;
+    color: #045e6e;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rowImg img{
+    margin: 10px;
+    width:150px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px skyblue, -1px -1px 5px skyblue;
+}
+.rowBtn button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(3, 99, 123, 0.562);
+    color: white;
+}
