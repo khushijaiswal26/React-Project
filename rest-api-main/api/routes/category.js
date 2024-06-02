@@ -7,9 +7,9 @@ const checkAuth = require('../middleware/check-auth');
 
 
 cloudinary.config({
-    cloud_name:'dmkzecpwn',
-    api_key:'129433148762853',
-    api_secret:'hOxzXslEQsyRGFZRtEzQUCohOt4'
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key:process.env.CLOUDINARY_API_KEY,
+    api_secret:process.env.CLOUDINARY_API_SECRET
   });
 
 
